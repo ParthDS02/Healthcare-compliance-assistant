@@ -1,4 +1,4 @@
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from config.settings import CHUNK_SIZE, CHUNK_OVERLAP
 
 def find_chunk_lines(page_content, chunk_text):
