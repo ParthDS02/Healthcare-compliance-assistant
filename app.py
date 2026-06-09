@@ -1,6 +1,8 @@
+import os
+os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"
+
 import streamlit as st
 import tempfile
-import os
 from ingestion.pdf_loader import load_pdf
 from ingestion.classifier import is_medical_document
 from ingestion.text_splitter import split_documents
