@@ -3,7 +3,7 @@
 RAG-Based, AI-Driven Compliance & Regulatory Intelligence for Healthcare Standards
 
 ## Application Screenshot
-![Application Screenshot](Screenshot 2026-06-09 185917.png)
+![Application Screenshot](portfolio_card.png)
 
 ## Application Link
 The Streamlit application runs locally at: http://localhost:8501
